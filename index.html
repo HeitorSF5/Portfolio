@@ -16,6 +16,8 @@
     
     .ListCol {
       color: #FDAD52;
+      font-size: 1.5em;
+      margin-left: 7.5em;
       }
     
     ul {
@@ -35,7 +37,7 @@
             }
     
     .header {
-      padding: 200px;
+      padding: 120px;
       text-align: center;
       background: #4d2222;
       color: #EAE0D5;
@@ -50,9 +52,17 @@
         display: block;
         margin-left:auto;
         margin-right:auto;
-        width: 300px;
-        
+        width: 300px;        
       }
+    
+    .button {
+      text-decoration: none;
+      color: #EAE0D5;
+      background-color: #4d2222;
+      padding: 0.5em;
+      border-radius: 20px;
+    }
+
     
     
   </style>
@@ -60,11 +70,11 @@
 <body   style="background-color: #0A0908; color: #C6AC8F;">
   <!-- <h1 style="text-align: center; color: #EAE0D5;">Heitor Souza Francilino ~ Coder</h1> ANTIGO HEADER--> 
   <div class="header">
-    Heitor Souza Francilino ~ Coder
+    <strong>H</strong>eitor <strong>S</strong>ouza <strong>F</strong>rancilino ~<strong> Coder</strong>
   </div>
   <hr>
   <img src="glassesme.png" alt="Foto minha" id="PicMe">
-  <h3>Índice</h3>
+  <h3 class="ListCol">Índice</h3>
   <ol class="ListCol">
     <li><a href="#Sobre" class="NoDeco">Sobre</a></li>
     <li><a href="#Competencias" class="NoDeco";">Competencias:</a></li>
@@ -113,9 +123,9 @@ hh   `---...\\\--(__))/-'-'
     <li>Skills mais <strong>Softs</strong> do mercado</li>
   </ul>
   <br>
-  <h5 id="Misc">Coisas etc:</h5>
-  <a href="glassesme.png">Clique Aqui para ~foto~</a>
+  <h5 id="Misc" text-align: center>Coisas etc:</h5>
+  <a class="button" href="glassesme.png">Clique Aqui para ~foto~</a>
   <br>
-  <a href="https://www.asciiart.eu/" target="_blank">Arte em ASCII porque é bacana</a>
+  <a class="button" href="https://www.asciiart.eu/" target="_blank">Arte em ASCII porque é bacana</a>
 </body>
 </html>
