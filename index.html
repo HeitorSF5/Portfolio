@@ -13,7 +13,7 @@
     .NoDeco {
       text-decoration: none;
       color: #DDCDBB;
-      }
+    }
     
     .ListCol {
       color: #FDAD52;
@@ -21,7 +21,7 @@
       font-family: Josefin sans-serif;
       font-weight: 200;
       margin-left: 7.5em;
-      }
+    }
     
     ul {
       list-style: none;
@@ -29,7 +29,7 @@
       font-weight: 100;
       font-size: 1.2em;
       padding: 1em;
-      }
+    }
 
     ul li::before {
       content: "\2022";
@@ -37,31 +37,31 @@
       display: inline-block;
       width: 1em;
       margin-left: -1em;
-      }
+    }
     
     .headBanner {
-      padding: 120px;
+      padding: 2em;
       background: #4d2222;
 
-      }
+    }
       
     .headText {
       text-align: center;
       color: #EAE0D5;
-      font-size: 60px;
+      font-size: 3.8em;
       font-family: Work Sans;
       font-weight: 200;
 
-      }
+    }
 
-    #PicMe {
+    .PicMe {
       border-radius: 0% 50%;
       border: 2px solid white;
       display: block;
       margin-left:auto;
       margin-right:auto;
       width: 300px;        
-      }
+    }
     
     .Lbutton {
       text-decoration: none;
@@ -72,7 +72,7 @@
       text-align: left;
       font-family: Josefin ssans-serif;
       font-weight: 200;
-      }
+    }
 
     .Rbutton {
       text-decoration: none;
@@ -81,12 +81,29 @@
       padding: 0.5em;
       border-radius: 20px;      
       text-align: center;
-      }
+    }
 
-    #DebugDog {
+    .DebugDog {
       margin-left: 30%;
       border: 2px solid white;
      } 
+    
+    .HeadBreak {
+      margin-top: -10px;
+    }
+
+    .PicInd {
+      display: inline;
+    }
+
+    .PicInd h3 {
+      
+      margin-left: 7.8em;
+      color: #FDAD52;
+      font-size: 1.5em;
+      font-family: Josefin sans-serif;
+      font-weight: 200;
+    }
     
     
   </style>
@@ -100,17 +117,22 @@
     <h2 class="headText"><strong>H</strong>eitor <strong>S</strong>ouza <strong>F</strong>rancilino</h2>
     <h5 class="headText">~Coder~</h5>
   </div>
-  <hr color= white> <br>
-  <img src="glassesme.png" alt="Foto minha" id="PicMe">
-  <div>
-  <h3 class="ListCol">Índice</h3>
-  <ol class="ListCol">
-    <li><a href="#Sobre" class="NoDeco">Sobre</a></li>
-    <li><a href="#Competencias" class="NoDeco";">Competencias:</a></li>
-    <li><a href="#Misc" class="NoDeco";">Etc</a></li>
-  </ol>
+
+  <div class="HeadBreak">
+    <hr color= white> <br>
   </div>
-  <div id="DebugDog">
+
+  <div class="PicInd">
+    <img src="glassesme.png" alt="Foto minha" class="PicMe">
+    <h3>Índice</h3>
+    <ol class="ListCol">
+      <li><a href="#Sobre" class="NoDeco">Sobre</a></li>
+      <li><a href="#Competencias" class="NoDeco";">Competencias:</a></li>
+      <li><a href="#Misc" class="NoDeco";">Etc</a></li>
+    </ol>
+  </div>
+
+  <div class="DebugDog">
     <pre>            
           _
          / )
@@ -136,7 +158,9 @@ hh   `---...\\\--(__))/-'-'
         ~debugging dog~
   </pre>
 </div>
+
 <br> <br> <br> <br>
+
   <h4 id="Sobre"><em>Sobre:</em></h4>
   <ul>
     <li><strong>Tipo:</strong> Criatura</li>
@@ -145,8 +169,11 @@ hh   `---...\\\--(__))/-'-'
     <li><strong>Idade: </strong>27</li>
     <li><strong>Cão ou Gato?</strong> Sim</li>
   </ul>
+
   <vr>
+
   <h4 id="Competencias"><em>Competências:</em></h4>
+  
   <ul>
     <li>Bilíngue: Português e Inglês fluente</li>
     <li>Profissionalismo</li>    
@@ -154,10 +181,14 @@ hh   `---...\\\--(__))/-'-'
     <li>Aprendendo a não falhar</li>
     <li>Skills mais <strong>Softs</strong> do mercado</li>
   </ul>
+
   <br>
+
   <h5 id="Misc" text-align: center;>Coisas etc:</h5>
   <a class="Lbutton" href="glassesme.png">Clique Aqui para ~foto~</a>
+
   <br>
+
   <a class="Rbutton" href="https://www.asciiart.eu/" target="_blank">Arte em ASCII porque é bacana</a>
 </body>
 </html>
