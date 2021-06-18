@@ -22,7 +22,8 @@
       font-weight: 200;
       margin-left: 7.5em;
     }
-    
+
+       
     ul {
       list-style: none;
       font-family: Josefin sans-serif;  
@@ -32,7 +33,7 @@
     }
 
     ul li::before {
-      content: "\2022";
+      content: "\2023";
       color: #d32f12;
       display: inline-block;
       width: 1em;
@@ -65,10 +66,10 @@
     
     .Lbutton {
       text-decoration: none;
-      color: #EAE0D5;
+      color: white;
       background-color: #4d2222;
       padding: 0.5em;
-      border-radius: 10px;
+      border-radius: 20px;
       text-align: left;
       font-family: Josefin ssans-serif;
       font-weight: 200;
@@ -76,10 +77,12 @@
 
     .Rbutton {
       text-decoration: none;
-      color: #EAE0D5;
+      color: white;
       background-color: #4d2222;
       padding: 0.5em;
-      border-radius: 20px;      
+      border-radius: 20px; 
+      font-family: Josefin ssans-serif;  
+      font-weight: 100;   
       text-align: center;
     }
 
@@ -103,6 +106,20 @@
       font-size: 1.5em;
       font-family: Josefin sans-serif;
       font-weight: 200;
+    }
+
+    .ButtonS {
+      
+      display: inline-block;
+      text-align: center;
+      margin-left: 20em;
+      overflow:inherit;
+      
+    }
+
+    .ButtonS h4 {
+      text-align: left;
+      margin-left: 3em;
     }
     
     
@@ -184,11 +201,15 @@ hh   `---...\\\--(__))/-'-'
 
   <br>
 
-  <h5 id="Misc" text-align: center;>Coisas etc:</h5>
-  <a class="Lbutton" href="glassesme.png">Clique Aqui para ~foto~</a>
+  <div class="ButtonS">
+    <h4 class="ListCol">Coisas etc:</h4>
+    
+    <a class="Lbutton" href="glassesme.png">Aqui para ~foto~</a>
 
-  <br>
+    <a class="Rbutton" href="https://www.asciiart.eu/" target="_blank">Arte em ASCII porque é bacana</a>
+  </div>
 
-  <a class="Rbutton" href="https://www.asciiart.eu/" target="_blank">Arte em ASCII porque é bacana</a>
+
+
 </body>
 </html>
